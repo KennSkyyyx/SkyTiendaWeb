@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="tienda.css">
+    <style>
+      body{
+        background-image: url('img/4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <h1>Style Fashion Sky B</h1>
+        <nav>
+        <ul>
+        <div id="calificacion">
+        <a href="CLvaloracion.php">
+        <img src="img/estrella.png" alt="Logo" class="logo">
+        </a>
+        </div>
+        <div id="perfil">
+        <a href="#" onclick="mostrarFormulario()">
+        <img src="img/us.png" alt="Logo" class="logo">
+        </a>
+        </div>
+        <div id="registro">
+        <a href="CLregclient.php">
+        <img src="img/reg.png" alt="Logo" class="logo">
+        </a>
+        </div>
+        <div id="cerrarSesion">
+        <a href="Salir.php">
+        <img src="img/salir.png" alt="Logo" class="logo">
+        </a>
+        </div>
+        </ul>
+        </nav>
+        </div>
+    </header>
+<section class="search container">
+</section>
+<section class="movies container">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+              <div class="swiper-slide">
+          <img src="Imgs/blusa.jpg" alt="Blusa Azul Women">
+      </div>
+      <div class="swiper-slide">
+          <img src="Imgs/camisa.jpg" alt="Camisa Negra Oversize">
+      </div>
+      <div class="swiper-slide">
+          <img src="Imgs/camisa1.jpg" alt="Camisa Azul H$M">
+      </div>
+      <div class="swiper-slide">
+          <img src="Imgs/chaqueta.jpg" alt="Chaqueta Men">
+      </div>
+      <div class="swiper-slide">
+          <img src="Imgs/pantalon.jpg" alt="Pantalon Negro Jean">
+      </div>
+      <div class="swiper-slide">
+          <img src="Imgs/sudadera.jpg" alt="Jogger Beige">
+      </div>
+      <div class="swiper-slide">
+          <img src="Imgs/sudadera1.jpg" alt="Sudadera Black">
+      </div>
+      <div class="swiper-slide">
+          <img src="Imgs/vestido.jpg" alt="Vestido Black Women">
+      </div>
+      <div class="swiper-slide">
+        <img src="Imgs/vestido2.jpg" alt="Vestido Women H&M">
+    </div>
+    <div class="swiper-slide">
+      <img src="Imgs/blusa.jpg" alt="Blusa Azul Women">
+  </div>
+  <div class="swiper-slide">
+      <img src="Imgs/camisa.jpg" alt="Camisa Negra Oversize">
+  </div>
+  <div class="swiper-slide">
+      <img src="Imgs/camisa1.jpg" alt="Camisa Azul H$M">
+  </div>
+  <div class="swiper-slide">
+      <img src="Imgs/chaqueta.jpg" alt="Chaqueta Men">
+  </div>
+  <div class="swiper-slide">
+      <img src="Imgs/pantalon.jpg" alt="Pantalon Negro Jean">
+  </div>
+  <div class="swiper-slide">
+      <img src="Imgs/sudadera.jpg" alt="Jogger Beige">
+  </div>
+  <div class="swiper-slide">
+      <img src="Imgs/sudadera1.jpg" alt="Sudadera Black">
+  </div>
+  <div class="swiper-slide">
+      <img src="Imgs/vestido.jpg" alt="Vestido Black Women">
+  </div>
+  <div class="swiper-slide">
+    <img src="Imgs/vestido2.jpg" alt="Vestido Women H&M">
+</div>
+    </div>
+      </div>
+      <div class="info-card" id="infoCard" style="display: none;">
+        <div class="info-card-content">
+            <span class="close-btn" id="closeBtn">&times;</span>
+            <h2 id="productTitle">Título del producto</h2>
+            <p id="productDescription">Descripción del producto.</p>
+            <button id="buyButton" class="buy-button">
+                <img src="Img/car.png" alt="Comprar Icono" class="buy-icon"><br>Comprar
+            </button>
+
+
+        </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+    <div class="footer-links">
+        <p>StyleFashionSkyB</p>
+        <ul>
+        <a href="http://senasofiaplus.edu.co/sofia-public/" target="_blank">+ Info</a>
+        </ul>
+    </div>
+    <div class="additional-info">
+        <ul>
+        Dirección: Calle 30-15, Ciudad Bogotà<br>
+        Teléfono: <br>322 4197138<br>
+        315 7450804<br>
+        Email: passrecuperacionsky1@gmail.com<br>
+        </ul>
+    </div>
+    <div class="social-media">
+        <p>Redes</p>
+        <a href="https://www.instagram.com/kenn_skyyx/" target="_blank"><img src="img/ig.png" alt="Instagram"></a>
+        <a href="https://github.com/KennSkyyyx?tab=repositories" target="_blank"><img src="img/git.png" alt="GitHub"></a>
+        <a href="https://www.instagram.com/stiven.__3?igsh=MWp0MGc1a284eWcxOQ==" target="_blank"><img src="img/ig.png" alt="Instagram"></a>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js" ></script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: #fff;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.movies{
+    padding: 50px 0 150px 0;
+}
+.movies h2{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.swiper{
+    width: 100%;
+}
+.swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+}
+.swiper-slide img{
+    display: block;
+    width: 100%;
+}	
+.info-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 15px 15px rgb(0, 0, 0);
+    padding: 20px;
+    z-index: 1000;
+
+}
+
+.info-card-content {
+    text-align: center;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+
+.container {
+display: flex;
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+    min-height: 70px; /* Ajusta la altura según tus necesidades */
+}
+.buy-button {
+    margin-top: 20px;
+    padding: 5px 15px;
+    background-color: #4b4b4b;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy-button img.buy-icon {
+    margin-right: 10px;
+    width: 40px; 
+    height: 40px; 
+}
+.buy-button:hover {
+    background-color: #ff00f2;
+}
+/* Estilos del header */
+header {
+    background-color: #242323;
+    color: #fff;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+    #perfil {
+    display: inline-block; /* Para que el contenedor abarque solo el ancho necesario */
+}
+
+.logo {
+    width: 40px; /* Ancho del logotipo */
+    height: 40px; /* Alto del logotipo */
+    margin-right: 25px; /* Espacio entre el logotipo y el texto */
+}
+#cerrarSesion {
+    display: inline-block; /* Para que el contenedor abarque solo el ancho necesario */
+}
+
+.logo {
+    width: 40px; /* Ancho del logotipo */
+    height: 40px; /* Alto del logotipo */
+
+}
+#registro {
+    display: inline-block; /* Para que el contenedor abarque solo el ancho necesario */
+}
+
+.logo {
+    width: 40px; /* Ancho del logotipo */
+    height: 40px; /* Alto del logotipo */
+
+}
+#calificacion {
+    display: inline-block; /* Para que el contenedor abarque solo el ancho necesario */
+}
+
+.logo {
+    width: 40px; /* Ancho del logotipo */
+    height: 40px; /* Alto del logotipo */
+
+}
+.hero {
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+.additional-info {
+ font-size: 18px;
+
+
+}
+.footer-links{
+    font-size: 16px;
+    text-align: left;
+   
+}
+
+
+footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 20px 0;
+    margin-top: 50px;
+
+}
+
+.social-media img {
+    padding-top: 1%;
+    width: 45px;
+    margin-right: 4px;
+}
+
+.social-media a:last-child img {
+    margin-right: 0;
+}
+/* Estilos de la cuadrÃ­cula */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 50px;
+
+}
+
+.grid-item {
+    padding: 89px;
+}
+
+.grid-item img {
+
+    max-width: 100%;
+    display: block;
+    box-shadow: 0px 0px 20px 20px; color: #000000;
+    transition: box-shadow 0.6s ease-in-out;
+}
+.grid-item img:hover {
+    box-shadow: 0px 0px 20px 20px #ea00ff; /* Cambia la sombra al pasar el mouse */
+}
+/* Resto de estilos permanecen igual */
+.footer-links,
+.additional-info,
+.social-media {
+  margin-inline: 10px; /* Ajusta el espacio entre los elementos */
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+    #perfil {
+    display: inline-block; /* Para que el contenedor abarque solo el ancho necesario */
+}
